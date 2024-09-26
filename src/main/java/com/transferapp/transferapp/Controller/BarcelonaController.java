@@ -19,7 +19,7 @@ public class BarcelonaController {
     private BarcelonaService barcelonaService;
 
     @PostMapping("save")
-    public ResponseEntity<String> oyuncuekle(@RequestBody BarcelonaDto barcelonaDto){
+    public ResponseEntity<String> oyuncuekle(@RequestBody @Valid BarcelonaDto barcelonaDto){
         barcelonaService.playersave(barcelonaDto);
         return new ResponseEntity<>("oyuncu eklendi", HttpStatus.CREATED);
     }

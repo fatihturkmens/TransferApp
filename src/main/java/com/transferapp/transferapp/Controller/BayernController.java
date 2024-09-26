@@ -20,7 +20,7 @@ public class BayernController {
     private BayernService bayernService;
 
     @PostMapping("save")
-    public ResponseEntity<String> oyuncuekle(@RequestBody BayernDto bayernDto){
+    public ResponseEntity<String> oyuncuekle(@RequestBody @Valid BayernDto bayernDto){
         bayernService.playersave(bayernDto);
         return new ResponseEntity<>("oyuncu eklendi", HttpStatus.CREATED);
     }

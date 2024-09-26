@@ -20,7 +20,7 @@ public class ManchesterController {
     private ManchesterService manchesterService;
 
     @PostMapping("save")
-    public ResponseEntity<String> oyuncuekle(@RequestBody ManchesterDto manchesterDto){
+    public ResponseEntity<String> oyuncuekle(@RequestBody @Valid ManchesterDto manchesterDto){
         manchesterService.playersave(manchesterDto);
         return new ResponseEntity<>("oyuncu eklendi", HttpStatus.CREATED);
     }

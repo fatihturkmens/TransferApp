@@ -1,0 +1,1 @@
+Futbol takımlarınının birbirinden farklı katmanlı mimariler ile tutulduğu,takımlar arasında futbolcu transferlerinin yapılabildiği ve takımlardaki futbolcu bilgileri ile ilgili tüm CRUD operasyonlarının yapılabildiği bir backend projesi.

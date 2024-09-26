@@ -1,5 +1,5 @@
 # TRANSFER BACKEND APP
-Futbol takımlarınının birbirinden farklı katmanlı mimariler ile futbolcu bilgilerinin tutulduğu,takımlar arasında futbolcu transferlerinin yapılabildiği ve takımlardaki futbolcu bilgileri ile ilgili tüm CRUD operasyonlarının yapılabildiği bir backend projesi.
+Futbol takımlarınının birbirinden farklı katmanlı mimariler ile futbolcu bilgilerinin tutulduğu,takımlar(farklı mimariler) arasında futbolcu transferlerinin yapılabildiği ve takımlardaki futbolcu bilgileri ile ilgili tüm CRUD operasyonlarının yapılabildiği bir backend projesi.
 # Kullanılan Teknolojiler
 * Java
 * Spring Boot

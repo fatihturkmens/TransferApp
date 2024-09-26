@@ -21,7 +21,7 @@ public class RealController {
 
 
     @PostMapping("save")
-    public ResponseEntity<String> oyuncuekle(@RequestBody RealDto realDto){
+    public ResponseEntity<String> oyuncuekle(@RequestBody @Valid RealDto realDto){
         realService.playersave(realDto);
         return new ResponseEntity<>("oyuncu eklendi", HttpStatus.CREATED);
     }
